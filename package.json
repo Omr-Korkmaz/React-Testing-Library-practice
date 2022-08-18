@@ -17,6 +17,14 @@
     "uuid": "^8.3.2",
     "web-vitals": "^1.0.1"
   },
+
+
+
+    "jest": {
+    
+      "resetMocks": false
+    },
+ 
   "scripts": {
 
     "start": "react-scripts --openssl-legacy-provider start",
