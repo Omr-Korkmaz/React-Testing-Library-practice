@@ -2,7 +2,12 @@ import React from "react";
 import TodoFooter from "../TodoFooter/TodoFooter";
 import "./TodoList.css";
 
+
 function TodoList({ todos, setTodos }) {
+
+
+
+
   const updateTask = (id) => {
     let updatedTasks = todos.map((todo) => {
       if (todo.id === id) {
